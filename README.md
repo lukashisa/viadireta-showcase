@@ -21,6 +21,40 @@ O ViaDireta organiza cada demanda em uma jornada verificável:
 3. Um gestor assume a responsabilidade e publica atualizações oficiais.
 4. A conclusão exige justificativa pública e permanece registrada no histórico.
 
+## O produto em funcionamento
+
+As imagens abaixo foram registradas no ambiente local de demonstração com dados de teste. Informações privadas, como e-mails, mensagens de atendimento, denúncias e documentos de verificação, não são exibidas.
+
+### Painel de demandas
+
+Visão geral da comunidade com indicadores, filtros, enquetes e separação entre demandas ativas, arquivadas e resolvidas.
+
+![Painel de demandas do ViaDireta](assets/screenshots/feed.png)
+
+### Detalhe e acompanhamento
+
+Página individual da demanda, com autoria, status, descrição e espaço para acompanhamento público da resolução.
+
+![Detalhe de uma demanda no ViaDireta](assets/screenshots/demand.png)
+
+### Perfil público
+
+Identidade comunitária, histórico de participação e demandas publicadas reunidos em uma página pública.
+
+![Perfil público de um participante do ViaDireta](assets/screenshots/public-profile.png)
+
+### Gestão de demandas
+
+Área operacional em que gestores assumem solicitações, registram atualizações e conduzem o ciclo de atendimento.
+
+![Área de gestão de demandas do ViaDireta](assets/screenshots/management.png)
+
+### Administração e moderação
+
+Ambiente protegido para gestão de acessos, denúncias, verificações, atendimento e auditoria.
+
+![Painel administrativo do ViaDireta](assets/screenshots/administration.png)
+
 ## Experiências principais
 
 ### Comunidade

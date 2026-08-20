@@ -4,87 +4,117 @@
 
 # ViaDireta
 
-O **ViaDireta** é uma plataforma de participação cívica criada para aproximar moradores e responsáveis pela gestão de demandas locais. A experiência reúne publicação, apoio, acompanhamento transparente e retorno oficial em um único fluxo.
+O **ViaDireta** é uma plataforma de interação cívica desenvolvida para aproximar cidadãos e gestores estaduais. A experiência reúne publicação, apoio, debate, consultas públicas, acompanhamento transparente e retorno oficial em um único fluxo.
+
+O projeto é idealizado, arquitetado e gerido por **Lucas Vieira**.
 
 > Projeto funcional em ambiente de demonstração. A aplicação não está aberta ao público e o código-fonte é privado.
 
 ## O problema
 
-Demandas de bairro costumam ficar espalhadas entre redes sociais, mensagens privadas e canais sem acompanhamento claro. Isso dificulta priorização, transparência e confiança entre a comunidade e quem pode resolver o problema.
+Demandas da população costumam ficar espalhadas entre redes sociais, mensagens privadas e canais sem acompanhamento claro. Isso dificulta a priorização, a identificação de responsáveis e a transparência sobre o que está sendo feito.
 
 ## A solução
 
 O ViaDireta organiza cada demanda em uma jornada verificável:
 
-1. O morador registra o problema com descrição, localização e evidências.
+1. O cidadão registra o problema com descrição, localização e evidências.
 2. A comunidade apoia, acompanha e participa da discussão.
-3. Um gestor assume a responsabilidade e publica atualizações oficiais.
-4. A conclusão exige justificativa pública e permanece registrada no histórico.
+3. Um gestor ou agente público assume formalmente a responsabilidade.
+4. Atualizações oficiais mostram publicamente o andamento do atendimento.
+5. A conclusão ou rejeição exige justificativa e permanece preservada no histórico.
 
 ## O produto em funcionamento
 
 As imagens abaixo foram registradas no ambiente local de demonstração com dados de teste. Informações privadas, como e-mails, mensagens de atendimento, denúncias e documentos de verificação, não são exibidas.
 
-### Painel de demandas
+### Mural de demandas
 
-Visão geral da comunidade com indicadores, filtros, enquetes e separação entre demandas ativas, arquivadas e resolvidas.
+Visão geral com indicadores, filtros territoriais e separação entre demandas ativas, arquivadas e resolvidas.
 
-![Painel de demandas do ViaDireta](assets/screenshots/feed.png)
+![Mural de demandas do ViaDireta](assets/screenshots/feed.png)
 
 ### Detalhe e acompanhamento
 
-Página individual da demanda, com autoria, status, descrição e espaço para acompanhamento público da resolução.
+Página individual com autoria, localização, evidências, apoios, comentários, responsável e linha do tempo pública.
 
 ![Detalhe de uma demanda no ViaDireta](assets/screenshots/demand.png)
 
 ### Perfil público
 
-Identidade comunitária, histórico de participação e demandas publicadas reunidos em uma página pública.
+Identidade comunitária, verificações, histórico de participação e demandas publicadas reunidos em uma página pública.
 
 ![Perfil público de um participante do ViaDireta](assets/screenshots/public-profile.png)
 
-### Gestão de demandas
+### Gestão e consultas públicas
 
-Área operacional em que gestores assumem solicitações, registram atualizações e conduzem o ciclo de atendimento.
+Área operacional em que gestores e agentes públicos conduzem demandas e administram consultas com período de participação e resultados preservados.
 
 ![Área de gestão de demandas do ViaDireta](assets/screenshots/management.png)
 
 ### Administração e moderação
 
-Ambiente protegido para gestão de acessos, denúncias, verificações, atendimento e auditoria.
+Ambiente protegido para gestão de usuários, permissões, verificações, denúncias, sanções, atendimento e auditoria.
 
 ![Painel administrativo do ViaDireta](assets/screenshots/administration.png)
 
 ## Experiências principais
 
-### Comunidade
+### Cidadãos
 
 - Cadastro, perfil público e preferências pessoais.
-- Demandas com localização, fotos e categorias.
+- Demandas com endereço, GPS, mapa, fotos e categorias.
 - Apoios, acompanhamento, comentários e notificações.
-- Linha do tempo pública com o andamento de cada solicitação.
+- Rascunho automático durante a criação de uma demanda.
+- Linha do tempo pública com o responsável e as atualizações oficiais.
 - Exclusão de conta autogerenciada com período de recuperação.
 
-### Gestão
+### Gestão pública
 
-- Fila operacional de demandas.
+- Fila operacional com filtros por situação da demanda.
 - Responsável identificado para cada atendimento.
-- Mudança de status acompanhada de atualização pública.
+- Atualizações públicas assinadas por quem as publicou.
 - Encerramento com justificativa e histórico preservado.
+- Criação e administração de consultas públicas com prazo definido.
+- Histórico das consultas encerradas ou retiradas do mural.
 
 ### Administração e moderação
 
 - Análise de denúncias e solicitações de verificação.
-- Gestão de permissões e sanções justificadas.
+- Gestão de funções e acessos institucionais.
+- Restrição temporária e banimento com justificativa.
 - Canal privado de atendimento à comunidade.
+- Administração master única e protegida.
 - Trilha de auditoria para ações administrativas.
+
+## Governança e confiança
+
+O produto diferencia as responsabilidades exibidas publicamente:
+
+- **Cidadão:** publica, apoia, acompanha e debate demandas.
+- **Gestor:** conduz o atendimento e publica atualizações oficiais.
+- **Agente público verificado:** possui identidade institucional verificada e acesso à gestão de demandas.
+- **Moderador:** atua sobre denúncias, verificações e integridade da comunidade.
+- **Administrador:** gerencia usuários, permissões e operações administrativas.
+- **Administrador master:** titular único da governança máxima da plataforma.
+
+## Recursos de transparência
+
+- Histórico público das mudanças de status.
+- Identificação do responsável pela demanda.
+- Assinatura de autoria nas atualizações oficiais.
+- Justificativa obrigatória para decisões finais.
+- Demandas encerradas preservadas para consulta.
+- Comentários encerrados automaticamente ao final da gestão.
+- Registros administrativos protegidos e auditáveis.
 
 ## Princípios do produto
 
-- **Transparência:** o cidadão acompanha quem assumiu a demanda e o que está sendo feito.
+- **Transparência:** a população acompanha quem assumiu a demanda e o que está sendo feito.
 - **Responsabilidade:** decisões administrativas exigem justificativa e deixam registro.
 - **Privacidade:** documentos comprobatórios ficam privados e possuem descarte programado.
-- **Clareza:** cada função — cidadão, gestor, moderador e administrador — recebe apenas os recursos necessários.
+- **Clareza:** cada função recebe apenas os recursos necessários para sua atuação.
+- **Acessibilidade territorial:** filtros e localização ajudam a organizar demandas em escala estadual.
 - **Mobile first:** a interface foi pensada para o uso cotidiano em celulares.
 
 ## Tecnologias
@@ -98,9 +128,13 @@ Ambiente protegido para gestão de acessos, denúncias, verificações, atendime
 
 ## Estado do projeto
 
-O MVP está preparado para apresentações controladas e demonstrações locais. Uma abertura pública exigiria uma etapa separada de infraestrutura, observabilidade, revisão jurídica, testes em staging e operação contínua.
+O MVP está funcional e preparado para apresentações controladas, demonstrações locais e avaliação comercial. Os principais fluxos de cidadãos, gestores, agentes públicos, moderadores e administradores estão implementados.
+
+Uma abertura pública será tratada como uma etapa própria de lançamento, incluindo hospedagem definitiva, configuração de e-mails, testes de carga, observabilidade, backups, revisão jurídica e validações adicionais de segurança.
 
 Uma demonstração privada pode ser apresentada sob solicitação.
+
+_Última atualização desta vitrine: agosto de 2026._
 
 ## Direitos
 

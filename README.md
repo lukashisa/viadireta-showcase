@@ -4,13 +4,13 @@
 
 # ViaDireta
 
-O **ViaDireta** é uma plataforma de participação cívica criada para aproximar moradores e responsáveis pela gestão de demandas locais. A experiência reúne publicação, apoio, acompanhamento transparente e retorno oficial em um único fluxo.
+O **ViaDireta** é uma plataforma de interação cívica desenvolvida para aproximar cidadãos e gestores estaduais. O projeto é idealizado, arquitetado e gerido por mim. A experiência reúne publicação, apoio, acompanhamento transparente e retorno oficial em um único fluxo.
 
 > Projeto funcional em ambiente de demonstração. A aplicação não está aberta ao público e o código-fonte é privado.
 
 ## O problema
 
-Demandas de bairro costumam ficar espalhadas entre redes sociais, mensagens privadas e canais sem acompanhamento claro. Isso dificulta priorização, transparência e confiança entre a comunidade e quem pode resolver o problema.
+Demandas da população costumam ficar espalhadas entre redes sociais, mensagens privadas e canais sem acompanhamento claro. Isso dificulta priorização, transparência e confiança entre cidadãos e gestão pública.
 
 ## A solução
 
@@ -25,9 +25,15 @@ O ViaDireta organiza cada demanda em uma jornada verificável:
 
 As imagens abaixo foram registradas no ambiente local de demonstração com dados de teste. Informações privadas, como e-mails, mensagens de atendimento, denúncias e documentos de verificação, não são exibidas.
 
+### Nova experiência de acesso
+
+A identidade visual foi ampliada para a entrada da plataforma. A ilustração muda automaticamente entre manhã, tarde, pôr do sol, noite e madrugada, mantendo contraste e legibilidade em diferentes horários. O layout também se reorganiza para desktop, tablet e celular.
+
+![Nova tela responsiva de acesso do ViaDireta](assets/screenshots/login.png)
+
 ### Painel de demandas
 
-Visão geral da comunidade com indicadores, filtros, enquetes e separação entre demandas ativas, arquivadas e resolvidas.
+Visão geral da comunidade com indicadores, filtros, consultas públicas e separação entre demandas ativas, arquivadas e resolvidas.
 
 ![Painel de demandas do ViaDireta](assets/screenshots/feed.png)
 
@@ -86,6 +92,13 @@ Ambiente protegido para gestão de acessos, denúncias, verificações, atendime
 - **Privacidade:** documentos comprobatórios ficam privados e possuem descarte programado.
 - **Clareza:** cada função — cidadão, gestor, moderador e administrador — recebe apenas os recursos necessários.
 - **Mobile first:** a interface foi pensada para o uso cotidiano em celulares.
+
+## Atualizações recentes
+
+- Nova tela de acesso responsiva, com identidade visual própria e ambientação dinâmica por horário.
+- Marca ViaDireta aplicada de forma consistente nos principais cabeçalhos da plataforma.
+- Melhorias de contraste, foco visível e leitura em diferentes tamanhos de tela.
+- Seleção de documentos com retorno claro sobre o arquivo escolhido nas solicitações de verificação.
 
 ## Tecnologias
 

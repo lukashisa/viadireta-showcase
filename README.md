@@ -126,9 +126,13 @@ O produto diferencia as responsabilidades exibidas publicamente:
 ## Atualizações recentes
 
 - Nova tela de acesso responsiva, com identidade visual própria e ambientação dinâmica por horário.
+- Tema escuro com suporte à preferência do sistema e opção manual de alternância.
 - Marca ViaDireta aplicada de forma consistente nos principais cabeçalhos da plataforma.
 - Melhorias de contraste, foco visível e leitura em diferentes tamanhos de tela.
-- Seleção de documentos com retorno claro sobre o arquivo escolhido nas solicitações de verificação.
+- Melhorias de desempenho e consistência nos fluxos de demandas e autenticação.
+- Banco de dados migrado para a região de São Paulo, com auditoria de estrutura, dados, Auth e arquivos do Storage.
+- URLs de imagens e avatares atualizadas e validadas no novo Storage; migrations e rotinas de backup documentadas.
+- Revisão de políticas, permissões e índices do banco, com lint de schema sem erros.
 
 ## Tecnologias
 
@@ -147,7 +151,7 @@ Uma abertura pública será tratada como uma etapa própria de lançamento, incl
 
 Uma demonstração privada pode ser apresentada sob solicitação.
 
-_Última atualização desta vitrine: agosto de 2026._
+_Última atualização desta vitrine: outubro de 2026._
 
 ## Direitos
 
